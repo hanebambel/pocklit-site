@@ -12,33 +12,54 @@
 <main>
 <header><strong><img class="brand" src="icon.png" alt="" width="28" height="28">Pocklit</strong><nav><a href="de.html">Start</a> · <a href="anleitung.html">Anleitung</a> · <a href="privacy.html">English</a> · <a href="support.html">Support</a></nav></header>
 <h1>Datenschutzerklärung für Pocklit</h1>
-<p class="note">Stand: TODO Datum der Veröffentlichung</p>
-<p>Pocklit ist darauf ausgelegt, deine Finanzdaten privat zu halten. Wir verkaufen deine Daten nicht und verwenden keine Werbe- oder Analyse-Tracker von Drittanbietern. Diese Erklärung beschreibt in einfacher Sprache, was die App mit deinen Daten macht. Sie gilt für Pocklit für Mac und Pocklit für iPhone.</p>
+<p class="note">Stand: Oktober 2026</p>
+
 <h2>Verantwortlicher</h2>
-<p>TODO Name<br>TODO Straße, PLZ, Ort, Deutschland<br>TODO E-Mail-Adresse</p>
-<h2>Deine Daten bleiben auf deinem Gerät</h2>
-<p>Deine Budgets, Konten und Buchungen werden lokal auf deinem Gerät gespeichert. Pocklit hat keine Account-Server und lädt deine Daten niemals zu uns hoch. Es gibt keine Registrierung und kein Benutzerkonto.</p>
-<h2>Optionale iCloud-Synchronisierung</h2>
-<p>Wenn du die iCloud-Synchronisierung für ein Budget einschaltest, wird dieses Budget in deinem eigenen privaten iCloud-Account (Apples private CloudKit-Datenbank) gespeichert, damit es zwischen deinen Geräten synchronisiert werden kann. Sensible Details werden auf deinem Gerät verschlüsselt, bevor sie gesendet werden; nur deine Geräte besitzen den Schlüssel. Wir können diese Daten nicht lesen, und sie werden niemals mit uns oder anderen geteilt. Lokale Budgets auf einem Mac werden außerdem in deinem eigenen iCloud Drive gesichert. Für Apples Umgang mit iCloud-Daten gilt Apples Datenschutzrichtlinie: <a href="https://www.apple.com/de/legal/privacy/">https://www.apple.com/de/legal/privacy/</a></p>
-<h2>Verschlüsselung im Ruhezustand</h2>
-<p>Du kannst ein Budget optional mit einer vollständigen Datenbankverschlüsselung schützen. Ist sie aktiviert, wird die Budgetdatei auf dem Datenträger verschlüsselt und lässt sich nur mit deinem Passwort, Touch ID oder Face ID öffnen. Der Schlüssel liegt im Schlüsselbund deines Geräts. Wenn du das Passwort vergisst, können wir das Budget nicht wiederherstellen.</p>
-<h2>Berechtigungen auf dem iPhone</h2>
-<p>Alle sind optional und werden nur für den genannten Zweck und nur auf deinem Gerät verwendet:</p>
+<p>Willi [Nachname]<br>E-Mail: [kontakt@deine-domain.de]</p>
+
+<h2>Das Wichtigste vorab</h2>
+<p>Pocklit ist eine Local-First-App. Alle Daten, die du in der App eingibst, werden ausschließlich auf deinem Gerät gespeichert. Die App überträgt <strong>keine</strong> Daten an den Entwickler oder an Dritte. Es gibt keinen Server des Entwicklers, keine Nutzungsanalyse, keine Werbung, keine Tracker und kein Crash-Reporting.</p>
+<p>Der Entwickler hat zu keinem Zeitpunkt Zugriff auf deine Daten.</p>
+
+<h2>Welche Daten die App verarbeitet</h2>
+<p>Pocklit verarbeitet die Daten, die du selbst eingibst – etwa Budgets, Konten, Buchungen, Kategorien und Notizen. Diese Daten liegen in einer lokalen Datenbank auf deinem iPhone oder Mac und verlassen das Gerät nicht, es sei denn, du aktivierst die iCloud-Synchronisation (siehe unten).</p>
+<p>Die App verarbeitet keine Daten, die sie nicht für ihre Funktion benötigt. Sie greift nicht auf Kontakte, Mikrofon oder andere Systemdaten zu. Kamera, Fotos und Standort nutzt sie nur auf dem iPhone, nur optional und nur, wenn du die jeweilige Funktion selbst startest (siehe die beiden folgenden Abschnitte).</p>
+
+<h2>Kamera, Fotos und Belegscan</h2>
+<p>Auf dem iPhone kannst du Kassenzettel mit der Kamera scannen oder ein Belegfoto aus deiner Fotomediathek auswählen. Dafür fragt die App einmalig die jeweilige Berechtigung an. Die Berechtigung wird ausschließlich für diesen Zweck genutzt und nur dann, wenn du den Scan oder die Auswahl selbst startest.</p>
+<p>Die Erkennung des Belegs erfolgt vollständig auf deinem Gerät mit den Texterkennungsfunktionen von iOS. Weder das Bild noch die erkannten Inhalte werden an den Entwickler oder an Dritte übertragen. Das Bild des Belegs wird zur zugehörigen Buchung lokal auf dem Gerät gespeichert und unterliegt denselben Regeln wie alle anderen App-Daten – inklusive der optionalen iCloud-Synchronisation in deinem privaten iCloud-Bereich. Beachte, dass ein Kassenzettel neben den Buchungsdaten weitere Angaben enthalten kann (etwa Zahlungsart oder Filialangaben); auch diese bleiben ausschließlich auf deinem Gerät bzw. in deiner iCloud. Du kannst gespeicherte Belegbilder jederzeit in der App löschen.</p>
+<p>Du kannst die Kamera- und Foto-Berechtigung jederzeit in den iOS-Einstellungen entziehen; die App funktioniert dann ohne Belegscan weiter.</p>
+
+<h2>Standort (optional)</h2>
+<p>Beim Erfassen einer Buchung auf dem iPhone kann Pocklit deinen aktuellen Standort nutzen, um Händler in der Nähe als Empfänger vorzuschlagen. Dafür fragt die App einmalig die Standort-Berechtigung „Beim Verwenden der App“ an. Der Standort wird nur in diesem Moment auf dem Gerät ausgewertet, nicht gespeichert und nicht übertragen. Ohne die Berechtigung funktioniert die App genauso, nur ohne diese Vorschläge.</p>
+
+<h2>Verschlüsselung und Face ID / Touch ID</h2>
+<p>Du kannst ein Budget optional mit einem Passwort verschlüsseln. Der Schlüssel liegt im Schlüsselbund deines Geräts. Zum Entsperren kannst du Face ID oder Touch ID verwenden; biometrische Daten verarbeitet ausschließlich das Betriebssystem, die App erhält nur das Ergebnis „entsperrt“ oder „nicht entsperrt“. Ohne Passwort gibt es keine Wiederherstellung.</p>
+
+<h2>iCloud-Synchronisation (optional)</h2>
+<p>Wenn du die iCloud-Synchronisation einschaltest, werden deine Pocklit-Daten über Apples iCloud zwischen deinen eigenen Geräten abgeglichen. Dabei gilt:</p>
 <ul>
-<li><strong>Kamera und Fotos</strong>: ein Belegfoto an eine Buchung anhängen. Das Bild wird mit dem Budget gespeichert (auf dem Gerät oder, bei eingeschalteter Synchronisierung, in deiner privaten iCloud).</li>
-<li><strong>Standort (bei Nutzung der App)</strong>: Händler in der Nähe vorschlagen, während du eine Buchung erfasst. Dein Standort wird weder gespeichert noch übertragen.</li>
-<li><strong>Face ID / Touch ID</strong>: ein verschlüsseltes Budget entsperren. Biometrische Daten verlassen die Secure Enclave nie.</li>
+<li>Die Daten werden im <strong>privaten iCloud-Bereich deines Apple-Kontos</strong> gespeichert. Nur du und deine mit diesem Apple-Konto angemeldeten Geräte haben Zugriff. Sensible Felder werden zusätzlich auf deinem Gerät verschlüsselt, bevor sie an iCloud gehen.</li>
+<li>Der Entwickler hat <strong>keinen Zugriff</strong> auf diese Daten und kann sie weder einsehen noch auswerten.</li>
+<li>Verantwortlich für die Verarbeitung in iCloud ist Apple. Es gelten die Datenschutzbestimmungen von Apple: <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a></li>
+<li>Die Synchronisation ist freiwillig und kann jederzeit in den App-Einstellungen oder in den iCloud-Einstellungen deines Geräts deaktiviert werden.</li>
 </ul>
-<h2>Importe und Integrationen</h2>
-<p>Importierte Kontoauszugsdateien (CSV, OFX, QIF, MT940) und YNAB-Exporte werden auf deinem Gerät gelesen. Die MoneyMoney-Erweiterung auf dem Mac übergibt eine Datei von MoneyMoney an Pocklit auf demselben Mac. Nichts wird irgendwohin gesendet.</p>
-<h2>Kein Tracking</h2>
-<p>Pocklit verfolgt dich nicht über Apps oder Websites hinweg und enthält keine Werbe- oder Analyse-SDKs von Drittanbietern und keinen eigenen Code zur Absturz- oder Nutzungsauswertung. Wir erheben keine Nutzungsdaten und keine Gerätekennungen. Hast du in deinen Geräteeinstellungen eingewilligt, Analysedaten mit App-Entwicklern zu teilen, kann Apple uns anonymisierte Absturzprotokolle weitergeben; diese Daten laufen über Apple nach Apples Datenschutzrichtlinie. Das Datenschutz-Label im App Store lautet daher „Keine Daten erfasst&quot;.</p>
-<h2>Kinder</h2>
-<p>Pocklit richtet sich nicht an Kinder und erhebt von niemandem Daten.</p>
-<h2>Deine Rechte</h2>
-<p>Da wir keine personenbezogenen Daten über dich speichern, gibt es bei uns nichts, worauf du zugreifen oder was wir berichtigen, exportieren oder löschen könnten. Alle deine Daten liegen in deiner Hand: Lösche die App, die Budgetdateien oder die iCloud-Daten (Einstellungen → Apple-Account → iCloud → Speicher verwalten → Pocklit), und sie sind weg. Bei Fragen erreichst du uns unter der oben genannten Adresse; außerdem hast du das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren.</p>
-<h2>Änderungen</h2>
-<p>Ändert sich diese Erklärung, wird die neue Fassung mit neuem Datum an dieser Adresse veröffentlicht.</p>
+
+<h2>Datenlöschung</h2>
+<p>Du hast die volle Kontrolle über deine Daten:</p>
+<ul>
+<li>Löschst du Daten in der App, werden sie vom Gerät entfernt (und bei aktivierter Synchronisation aus deinem privaten iCloud-Bereich).</li>
+<li>Löschst du die App, werden alle lokal gespeicherten Daten mit entfernt.</li>
+<li>Daten in iCloud kannst du über die iCloud-Einstellungen deines Geräts oder unter <a href="https://privacy.apple.com">https://privacy.apple.com</a> verwalten und löschen.</li>
+</ul>
+
+<h2>Rechtsgrundlage und Betroffenenrechte</h2>
+<p>Da der Entwickler keine personenbezogenen Daten erhebt, speichert oder verarbeitet, findet durch ihn keine Verarbeitung im Sinne der DSGVO statt. Entsprechend gibt es beim Entwickler keine Daten, über die Auskunft erteilt oder die berichtigt oder gelöscht werden könnten.</p>
+<p>Solltest du dennoch Fragen zum Datenschutz haben oder meinen, dass deine Rechte verletzt wurden, kannst du dich jederzeit an die oben genannte E-Mail-Adresse wenden. Unabhängig davon hast du das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren.</p>
+
+<h2>Änderungen dieser Erklärung</h2>
+<p>Diese Datenschutzerklärung kann angepasst werden, wenn sich die App oder die rechtlichen Rahmenbedingungen ändern. Die jeweils aktuelle Fassung findest du unter dieser Adresse. Sollte Pocklit jemals beginnen, Daten zu übertragen, wird das hier ausdrücklich beschrieben – und du wirst in der App darüber informiert.</p>
+
 </main>
 </body>
 </html>

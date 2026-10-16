@@ -12,33 +12,54 @@
 <main>
 <header><strong><img class="brand" src="icon.png" alt="" width="28" height="28">Pocklit</strong><nav><a href="index.html">Home</a> · <a href="guide.html">Guide</a> · <a href="datenschutz.html">Deutsch</a> · <a href="support.html">Support</a></nav></header>
 <h1>Pocklit Privacy Policy</h1>
-<p class="note">Last updated: TODO date of publication</p>
-<p>Pocklit is built to keep your financial data private. We do not sell your data and we do not use third-party advertising or analytics trackers. This policy explains what the app does with your data, in plain language. It applies to Pocklit for Mac and Pocklit for iPhone.</p>
+<p class="note">Last updated: October 2026</p>
+
 <h2>Who is responsible</h2>
-<p>TODO Name<br>TODO Street, postal code, city, Germany<br>TODO email address</p>
-<h2>Your data stays on your device</h2>
-<p>Your budgets, accounts, and transactions are stored locally on your device. Pocklit has no account servers and never uploads your data to us. There is no sign-up and no user account.</p>
-<h2>Optional iCloud sync</h2>
-<p>If you turn on iCloud sync for a budget, that budget is stored in your own private iCloud account (Apple&#x27;s CloudKit private database) so it can sync across your devices. Sensitive details are encrypted on your device before they are sent, and only your devices hold the key. We cannot read this data, and it is never shared with us or anyone else. Local budgets on a Mac are also backed up to your own iCloud Drive. Apple&#x27;s handling of iCloud data is governed by Apple&#x27;s privacy policy: <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a></p>
-<h2>Encryption at rest</h2>
-<p>You can optionally protect a budget with whole-database encryption. When enabled, the budget file is encrypted on disk and can only be opened with your password, Touch ID, or Face ID. The key is kept in your device&#x27;s keychain. If you forget the password, we cannot recover the budget.</p>
-<h2>Permissions on iPhone</h2>
-<p>All of these are optional and are used only for the stated purpose, on your device:</p>
+<p>Willi [Last name]<br>Email: [contact@your-domain.de]</p>
+
+<h2>The short version</h2>
+<p>Pocklit is a local-first app. Everything you enter in the app is stored only on your device. The app transmits <strong>no</strong> data to the developer or to third parties. There is no developer server, no usage analytics, no advertising, no trackers and no crash reporting.</p>
+<p>The developer never has access to your data.</p>
+
+<h2>What data the app processes</h2>
+<p>Pocklit processes the data you enter yourself: budgets, accounts, transactions, categories and notes. This data lives in a local database on your iPhone or Mac and does not leave the device unless you turn on iCloud sync (see below).</p>
+<p>The app processes no data it does not need for its function. It does not access your contacts, microphone or other system data. Camera, photos and location are used on the iPhone only, only optionally, and only when you start the respective feature yourself (see the next two sections).</p>
+
+<h2>Camera, photos and receipt scanning</h2>
+<p>On the iPhone you can scan receipts with the camera or pick a receipt photo from your photo library. The app asks for the respective permission once. The permission is used for this purpose only, and only when you start the scan or the selection yourself.</p>
+<p>Receipt recognition runs entirely on your device using the text-recognition features of iOS. Neither the image nor the recognised contents are transmitted to the developer or to third parties. The receipt image is stored with its transaction, locally on the device, and follows the same rules as all other app data, including optional iCloud sync into your private iCloud space. Note that a receipt can contain more than the transaction details (for example the payment method or the branch); this too stays only on your device or in your iCloud. You can delete stored receipt images in the app at any time.</p>
+<p>You can revoke the camera and photo permissions at any time in the iOS Settings; the app keeps working without receipt scanning.</p>
+
+<h2>Location (optional)</h2>
+<p>While you add a transaction on the iPhone, Pocklit can use your current location to suggest nearby merchants as the payee. For this the app asks once for the "While Using the App" location permission. The location is evaluated on the device at that moment only; it is neither stored nor transmitted. Without the permission the app works the same, just without these suggestions.</p>
+
+<h2>Encryption and Face ID / Touch ID</h2>
+<p>You can optionally protect a budget with a password. The key is kept in your device's keychain. To unlock, you can use Face ID or Touch ID; biometric data is handled by the operating system alone, and the app only receives the result "unlocked" or "not unlocked". There is no recovery without the password.</p>
+
+<h2>iCloud sync (optional)</h2>
+<p>If you turn on iCloud sync, your Pocklit data is synchronised between your own devices through Apple's iCloud. The following applies:</p>
 <ul>
-<li><strong>Camera and Photos</strong>: attach a receipt image to a transaction. The image is stored with the budget (on device, or in your private iCloud if sync is on).</li>
-<li><strong>Location (while using the app)</strong>: suggest nearby merchants while you add a transaction. Your location is not stored and not transmitted.</li>
-<li><strong>Face ID / Touch ID</strong>: unlock an encrypted budget. Biometric data never leaves the Secure Enclave.</li>
+<li>The data is stored in the <strong>private iCloud space of your Apple Account</strong>. Only you and the devices signed in with that Apple Account have access. Sensitive fields are additionally encrypted on your device before they go to iCloud.</li>
+<li>The developer has <strong>no access</strong> to this data and can neither view nor analyse it.</li>
+<li>Apple is responsible for the processing in iCloud. Apple's privacy policy applies: <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a></li>
+<li>Sync is voluntary and can be turned off at any time in the app's settings or in your device's iCloud settings.</li>
 </ul>
-<h2>Imports and integrations</h2>
-<p>Bank statement files you import (CSV, OFX, QIF, MT940) and YNAB export files are read on your device. The MoneyMoney extension on the Mac hands a file from MoneyMoney to Pocklit on the same Mac. Nothing is sent anywhere.</p>
-<h2>No tracking</h2>
-<p>Pocklit does not track you across apps or websites and contains no third-party advertising or analytics SDKs, and no crash-reporting or analytics code of our own. We collect no usage data and no device identifiers. If you have chosen in your device settings to share analytics with app developers, Apple may pass us anonymized crash logs; that data flows through Apple under Apple&#x27;s privacy policy. The App Store privacy label for Pocklit therefore reads &quot;Data Not Collected&quot;.</p>
-<h2>Children</h2>
-<p>Pocklit is not directed at children and collects no data from anyone.</p>
-<h2>Your rights</h2>
-<p>Because we hold no personal data about you, there is nothing for us to access, correct, export, or delete. Every piece of your data is in your own hands: delete the app, the budget files, or the iCloud data (Settings → Apple Account → iCloud → Manage Storage → Pocklit) and it is gone. You can contact us at the address above with any question, and you have the right to lodge a complaint with a data protection authority.</p>
-<h2>Changes</h2>
-<p>If this policy changes, the new version is published at this address with a new date.</p>
+
+<h2>Deleting data</h2>
+<p>You have full control over your data:</p>
+<ul>
+<li>If you delete data in the app, it is removed from the device (and, with sync on, from your private iCloud space).</li>
+<li>If you delete the app, all locally stored data is removed with it.</li>
+<li>Data in iCloud can be managed and deleted through your device's iCloud settings or at <a href="https://privacy.apple.com">https://privacy.apple.com</a>.</li>
+</ul>
+
+<h2>Legal basis and your rights</h2>
+<p>Because the developer does not collect, store or process any personal data, no processing within the meaning of the GDPR takes place on the developer's side. Accordingly there is no data held by the developer that could be disclosed, corrected or deleted.</p>
+<p>If you nevertheless have questions about privacy, or believe your rights have been violated, you can contact the email address above at any time. Independently of that, you have the right to lodge a complaint with a data protection supervisory authority.</p>
+
+<h2>Changes to this policy</h2>
+<p>This privacy policy may be updated when the app or the legal framework changes. The current version is always available at this address. Should Pocklit ever start transmitting data, it will be described here explicitly, and you will be informed in the app.</p>
+
 </main>
 </body>
 </html>
